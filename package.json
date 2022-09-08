@@ -5,7 +5,7 @@
   "main": "calculator.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "node calculator.js"
+    "start": "node calculator.js"
   },
   "author": "",
   "license": "ISC",
