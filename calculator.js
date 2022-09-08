@@ -28,6 +28,13 @@ app.post("/bmicalculator",function(req,res){
     res.send("Your BMI is "+ BMI);
 });
 
+
+app.get("/cron", (req, res) => {
+  // the code you want to run
+   console.log("cron job called");
+  res.sendStatus(200) // sends an "OK" response
+})
+
 app.listen(3000,function(){
     console.log("server started on port 3000");
 })
