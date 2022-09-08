@@ -35,6 +35,6 @@ app.get("/cron", (req, res) => {
   res.sendStatus(200) // sends an "OK" response
 })
 
-app.listen(3000,function(){
+app.listen(process.env.PORT,function(){
     console.log("server started on port 3000");
 })
